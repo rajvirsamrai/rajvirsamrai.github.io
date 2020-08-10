@@ -1,0 +1,113 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+    margin: auto;
+    width: 900px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.business_card {
+    border-bottom: 1px solid black;
+    font-family: 'Libre Franklin', serif;
+    font-size: 1.5em;
+    margin-bottom: 7px;
+    padding: 24px 0px;
+    text-align: center;
+}
+
+.entry {
+    border-top: 1px solid black;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 20% 80%;
+    margin-bottom: 40px;
+    padding: 25px 20px 20px 20px;
+    position: relative;
+    width: 860px;
+}
+
+.title {
+    font-size: 1.6em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: start;
+}
+
+.date {
+    font-size: 0.8em;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: end;
+    padding-top: 10px;
+}
+
+.description {
+    color: #606060;
+    font-size: 0.83em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 5px;
+}
+
+.statement {
+    margin-bottom: 25px;
+}
+
+.comment {
+    color: black;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.comment img {
+    display: block;
+    height: 20px;
+    left: 0px;
+    position: absolute;
+    width: 20px;
+    top: -2px;
+}
+
+.links {
+    padding-left: 25px;
+}
+
+.links a {
+    color: #606060;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.media {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.false_footer {
+    border-top: 1px solid black;
+    margin-bottom: 7px;
+}
+
+.footer {
+    border-top: 1px solid black;
+    font-size: 0.69em;
+    text-align: center;
+}
