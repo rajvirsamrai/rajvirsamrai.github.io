@@ -1,0 +1,26 @@
+.station {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: grid;
+    font-family: "Libre Franklin", sans-serif;
+    grid-template-columns: repeat(4, 1fr);
+    height: 40px;
+    margin-bottom: 7px;
+}
+
+.line {
+    color: #141414;
+    display: block;
+    font-weight: bold;
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.line:hover {
+    background-color: rgba(185, 185, 185, 0.1);
+}
+
+#current {
+    background-color: rgba(180, 180, 180, 0.3);
+}
