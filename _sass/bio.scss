@@ -1,0 +1,11 @@
+.bio {
+    border-top: 1px solid black;
+    display: grid;
+    font-size: 0.9em;
+    padding: 0px 200px;
+}
+
+.bio > p {
+    font-family: "Libre Baskerville", serif;
+    line-height: 1.3;
+}

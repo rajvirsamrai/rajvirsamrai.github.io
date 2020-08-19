@@ -1,8 +1,8 @@
-- name: Projects
+- name: Games
   link: /
+- name: Projects
+  link: /projects.html
 - name: About
   link: /about.html
-- name: Contact
-  link: /contact.html
 - name: Lists
   link: /lists.html

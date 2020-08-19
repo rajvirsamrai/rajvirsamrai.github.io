@@ -4,6 +4,7 @@ body {
     font-size: 1em;
     margin: auto;
     width: 900px;
+    overflow-y: scroll;
 }
 
 img {
@@ -39,8 +40,8 @@ img {
 }
 
 .description {
-    font-family: 'Libre Caslon Text', serif;
-    font-size: 1em;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 0.9em;
     font-weight: 500;
     line-height: 1.3;
 }
