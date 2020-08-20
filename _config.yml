@@ -1,2 +1,17 @@
+collections:
+  lists:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "lists"
+    values:
+      layout: "list"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 sass:
   style: compressed

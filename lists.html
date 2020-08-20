@@ -1,5 +1,10 @@
 ---
-layout: default
 title: Lists
 ---
-I like Prey, Return of the Obra Dinn, and Enviromental Station Alpha
+<div id="lists">
+    <ul>
+        {% for list in site.lists %}
+            <h2><a href="{{ list.url }}">{{ list.title }}</a></h2>
+        {% endfor %}
+    </ul>
+</div>
