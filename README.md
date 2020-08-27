@@ -1,5 +1,5 @@
-# spider_island
-spider_island is the repo for my personal website.
+# rajvirsamrai.ca
+This is the repo for my personal website.
 
 ## Requirements
 This website was created with [Jekyll](https://jekyllrb.com/docs/).
