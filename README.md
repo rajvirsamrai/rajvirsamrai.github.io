@@ -20,4 +20,4 @@ and visit [http://localhost:4000](http://localhost:4000) in your browser.
 The design of this website was inspired by [dukope.com](https://dukope.com/)
 
 ## License
-[MIT](https://github.com/rajvirsamrai/spider_island/blob/master/LICENSE)
+[BSD 3-Clause](https://github.com/rajvirsamrai/rajvirsamrai.github.io/blob/master/LICENSE)
