@@ -87,6 +87,12 @@ img {
 
 .links > ul > li > a {
     color: #606060;
+    text-decoration: none;
+}
+
+.links > ul > li > a:hover {
+    color: #b83020;
+    text-decoration: underline;
 }
 
 .links > ul {

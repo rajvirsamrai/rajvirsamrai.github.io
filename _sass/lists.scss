@@ -10,8 +10,18 @@
 }
 
 #lists > ul > h2 {
-    margin: 0px;
+    margin: 0px 0px 2px 0px;
     padding: 0px;
+}
+
+#lists > ul > h2 > a {
+    color: #606060;
+    text-decoration: none;
+}
+
+#lists > ul > h2 > a:hover {
+    color: #b83020;
+    text-decoration: underline;
 }
 
 #list {
