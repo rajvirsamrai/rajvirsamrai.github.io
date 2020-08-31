@@ -1,3 +1,13 @@
+author:
+  name: Rajvir Samrai
+  email: rajvir.samrai@mail.utoronto.ca
+  github: rajvirsamrai
+  twitter: rajvirsamrai
+tagline: A website created to display my work.
+description: A portfolio website I created to display my games and projects. I also have a lists and blog page to organize my thoughts and share them.
+type: Person
+
+
 collections:
   lists:
     output: true
@@ -20,3 +30,8 @@ defaults:
 
 sass:
   style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

@@ -11,8 +11,10 @@
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="theme-color" content="#ffffff">
     <!-- End Favicon -->
+    {% feed_meta %}
+    {% seo title=false %}
     <meta charset="utf-8">
-    <title>Rajvir Samrai / {{ page.title }}</title>
+    <title>{% if page.title == "Games" %} Games by Rajvir Samrai {% else %} Rajvir Samrai / {{ page.title }} {% endif %}</title>
   </head>
   <body>
     {% include business_card.html %}
