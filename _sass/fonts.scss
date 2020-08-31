@@ -6,6 +6,7 @@
     src:local('Libre Franklin Bold'), local('LibreFranklin-Bold'),
         url('/assets/fonts/libre-franklin-v4-latin-ext_latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
         url('/assets/fonts/libre-franklin-v4-latin-ext_latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-display: swap;
 }
 /* libre-baskerville-regular - latin-ext_latin */
 @font-face {
@@ -15,6 +16,7 @@
     src:local('Libre Baskerville'), local('LibreBaskerville-Regular'),
         url('/assets/fonts/libre-baskerville-v7-latin-ext_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
         url('/assets/fonts/libre-baskerville-v7-latin-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-display: swap;
 }
 
 /* libre-baskerville-700 - latin-ext_latin */
@@ -25,4 +27,5 @@
     src:local('Libre Baskerville Bold'), local('LibreBaskerville-Bold'),
         url('/assets/fonts/libre-baskerville-v7-latin-ext_latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
         url('/assets/fonts/libre-baskerville-v7-latin-ext_latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-display: swap;
 }
