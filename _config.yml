@@ -7,7 +7,12 @@ defaults:
       path: ""
       type: "lists"
     values:
-      layout: "list"
+      layout: "piece"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "piece"
   - scope:
       path: ""
     values:
