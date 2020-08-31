@@ -7,11 +7,6 @@ body {
     overflow-y: scroll;
 }
 
-img {
-    width: 250px;
-    height: auto;
-}
-
 .entry {
     border-top: 1px solid black;
     display: grid;
@@ -68,13 +63,11 @@ img {
     position: relative;
 }
 
-.comment > img {
+.arrow {
     display: block;
-    height: auto;
     left: 0px;
     position: absolute;
-    width: 20px;
-    top: 3px;
+    top: 4px;
 }
 
 .comment > p {
@@ -103,4 +96,9 @@ img {
 .media {
     padding-top: 20px;
     text-align: right;
+}
+
+.media > img {
+    height: auto;
+    width: 250px;
 }
