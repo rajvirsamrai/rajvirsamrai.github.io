@@ -41,3 +41,13 @@
 
     justify-self: right;
 }
+
+#contact_info > li > a {
+    color: #606060;
+    text-decoration: none;
+}
+
+#contact_info > li > a:hover {
+    color: #b83020;
+    text-decoration: underline;
+}
