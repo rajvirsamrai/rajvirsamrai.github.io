@@ -46,3 +46,8 @@ title: My Favorite Games
 1. Whack Your Boss
 1. The Impossible Quiz
 1. Interactive Buddy
+
+#### Want to play
+1. Assemble with Care
+1. Control
+1. FROST
