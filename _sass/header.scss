@@ -1,0 +1,23 @@
+.header {
+    border-bottom: 1px solid black;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 3em;
+    margin-bottom: 7px;
+    padding: 60px 0px 40px 0px;
+    text-align: center;
+}
+
+#subtitle {
+    font-size: 0.3em;
+    height: auto;
+}
+
+#subtitle > a {
+    color: #141414;
+    text-decoration: none;
+}
+
+#subtitle > a:hover {
+    color: #b83020;
+    text-decoration: underline;
+}
