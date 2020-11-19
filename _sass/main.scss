@@ -39,17 +39,19 @@ body {
     line-height: 1.5;
 }
 
-.description > .statement > h3 {
-    margin: 0px;
-}
-
 .statement {
     margin-bottom: 25px;
 }
 
+.statement > h3 {
+    margin-top: -5px;
+    margin-bottom: 13px;
+}
 .statement > p {
     color: #474747;
     font-size: 0.8em;
+    margin-top: 0px;
+    margin-bottom: 13px;
 }
 
 .comment {
@@ -88,7 +90,6 @@ body {
 }
 
 .media {
-    padding-top: 5px;
     text-align: right;
 }
 
