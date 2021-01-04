@@ -13,11 +13,21 @@
 }
 
 #subtitle > a {
-    color: #141414;
+    color: #606060;
+    text-decoration: underline;
+}
+
+#subtitle > #resume:hover {
+    color: #000080;
     text-decoration: none;
 }
 
-#subtitle > a:hover {
-    color: #b83020;
-    text-decoration: underline;
+#subtitle > #github:hover {
+    color: #6e5494;
+    text-decoration: none;
+}
+
+#subtitle > #twitter:hover {
+    color: #1da1f2;
+    text-decoration: none;
 }

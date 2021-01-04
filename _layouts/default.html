@@ -14,7 +14,15 @@
     {% feed_meta %}
     {% seo title=false %}
     <meta charset="utf-8">
-    <title>{% if page.title == "Games" %} Games by Rajvir Samrai {% else %} Rajvir Samrai / {{ page.title }} {% endif %}</title>
+    <title>
+      {% if page.title == "Games" %}
+        Games by Rajvir Samrai
+      {% elsif page.title == "Lists" %}
+        Lists by Rajvir Samrai
+      {% else %}
+        Rajvir Samrai / {{ page.title }}
+      {% endif %}
+    </title>
   </head>
   <body>
     {% include header.html %}

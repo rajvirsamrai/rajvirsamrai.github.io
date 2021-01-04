@@ -16,10 +16,10 @@ title: My Favorite Games
 1. Lightmatter
 1. Getting Over It with Bennett Foddy
 1. Halo CE to Reach
+1. Hotline Miami 1
 1. Devil Daggers
 1. Enviromental Station Alpha
 1. Saints Row IV
-1. 
 
 #### Multiplayer
 1. Counter Strike: Global Offensive
